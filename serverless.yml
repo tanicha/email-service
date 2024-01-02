@@ -18,8 +18,7 @@ provider:
   name: aws
   runtime: nodejs16.x
   region: us-west-2
-
-iam:
+  iam:
   role:
     statements:
       - Effect: "Allow"
